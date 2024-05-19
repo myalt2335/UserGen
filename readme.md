@@ -1,2 +1,1 @@
-Still making the actual code lmao
-Edit: I made it pretty quickly
+I got 5 friend requests from some weird accounts that followed a strict username order of (Adjective or verb), noun, number so I made a script to do the same thing but I forgot the verb part but who really cares
