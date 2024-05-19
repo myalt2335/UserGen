@@ -3,6 +3,7 @@ import requests
 
 adjectives_url = "https://raw.githubusercontent.com/myalt2335/UserGen/main/Adjectives.txt"
 nouns_url = "https://raw.githubusercontent.com/myalt2335/UserGen/main/Nouns.txt"
+verbs_url = "https://raw.githubusercontent.com/myalt2335/UserGen/main/Verbs.txt"
 
 def fetch_words(url):
     response = requests.get(url)
@@ -11,16 +12,21 @@ def fetch_words(url):
 
 adjectives = fetch_words(adjectives_url)
 nouns = fetch_words(nouns_url)
+verbs = fetch_words(verbs_url)
 
 def generate_username():
-    adjective = random.choice(adjectives)
+    word_type = random.choice(['adjective', 'verb'])
+    if word_type == 'adjective':
+        word = random.choice(adjectives)
+    else:
+        word = random.choice(verbs)
     noun = random.choice(nouns)
     number = random.randint(1, 9)
-    username = f"{adjective}{noun}{number}"
+    username = f"{word}{noun}{number}"
     return username
 
 def main():
-    version = "1.0.1"
+    version = "1.0.2"
     print(f"UserGen - Version {version}")
     print("Here's your usernames now:")
     
