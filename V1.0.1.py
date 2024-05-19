@@ -1,8 +1,8 @@
 import random
 import requests
 
-adjectives_url = "https://raw.githubusercontent.com/myalt2335/SkibidiBook.com/main/Adjectives.txt"
-nouns_url = "https://raw.githubusercontent.com/myalt2335/SkibidiBook.com/main/Nouns.txt"
+adjectives_url = "https://raw.githubusercontent.com/myalt2335/UserGen/main/Adjectives.txt"
+nouns_url = "https://raw.githubusercontent.com/myalt2335/UserGen/main/Nouns.txt"
 
 def fetch_words(url):
     response = requests.get(url)
