@@ -1,7 +1,7 @@
 Apple
 Table
 Bench
-Car
+Motorcycle
 Book
 Dog
 Cat
@@ -130,7 +130,7 @@ Checkers
 Dice
 Dominoes
 Jigsaw
-Rubik'scube
+Rubikscube
 Toy
 Doll
 Actionfigure
@@ -140,11 +140,9 @@ Buildingblocks
 Ball
 Dollhouse
 Train
-Car
 Truck
 Bus
 Bicycle
-Motorcycle
 Boat
 Ship
 Sailboat
@@ -169,7 +167,7 @@ Matches
 Lighter
 Campfire
 Marshmallow
-S'mores
+Smores
 Hotdog
 Hamburger
 Sandwich
@@ -223,7 +221,7 @@ Pear
 Cherry
 Mulberry
 Gooseberry
-Cranberry
+Raspberry
 Pineapple
 Watermelon
 Cantaloupe
@@ -237,8 +235,7 @@ Date
 Cashewnut
 Pistachio
 Brazilnut
-Pecannut
-Macadamianut
+Almond
 Sunflowerseed
 Poppyseed
 Chia
@@ -263,6 +260,19 @@ Kidneybean
 Blackbean
 Pintobean
 Navybean
+Currant
+Gojiberry
+Acaiberry
+Elderberry
+Boysenberry
+Lingonberry
+Blueberry
+Blackberry
+Pinenut
+Hazelnut
+Chestnut
+Walnut
+Peanut
 Cranberry
 Currant
 Gojiberry
@@ -270,7 +280,6 @@ Acaiberry
 Elderberry
 Boysenberry
 Lingonberry
-Raspberry
 Blueberry
 Blackberry
 Pinenut
@@ -281,3 +290,11 @@ Chestnut
 Walnut
 Almond
 Peanut
+Cashewnut
+Pistachio
+Brazilnut
+Sunflowerseed
+Poppyseed
+Chia
+Oat
+Wheat
