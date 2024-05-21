@@ -1,9 +1,10 @@
 import random
 import requests
 
-adjectives_url = "https://raw.githubusercontent.com/myalt2335/UserGen/main/Adjectives.txt"
-nouns_url = "https://raw.githubusercontent.com/myalt2335/UserGen/main/Nouns.txt"
-verbs_url = "https://raw.githubusercontent.com/myalt2335/UserGen/main/Verbs.txt"
+adjectives_url = "https://raw.githubusercontent.com/myalt2335/Dictionary/main/Adjectives.txt"
+verbs_url = "https://raw.githubusercontent.com/myalt2335/Dictionary/main/Verbs.txt"
+nouns_url = "https://raw.githubusercontent.com/myalt2335/Dictionary/main/Nouns.txt"
+
 
 def fetch_words(url):
     response = requests.get(url)
@@ -26,7 +27,7 @@ def generate_username():
     return username
 
 def main():
-    version = "1.0.2"
+    version = "1.0.3"
     print(f"UserGen - Version {version}")
     print("Here's your usernames now:")
     
